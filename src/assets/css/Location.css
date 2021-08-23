@@ -1,0 +1,11 @@
+.h-100 w-100 {
+  box-sizing: border-box;
+}
+
+.content-7-5 {
+  font-family: 'Inter', sans-serif
+}
+
+iframe{
+  border:0;
+}

@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.footer-4-2 h-100{
+  font-family: 'Inter', sans-serif;
+}
+.footer-4-2 .icon-footer:hover path {
+  fill: #113873;
+}
+
+.footer-4-2 .text-gray-1 {
+  color: #6681a9;
+}
+
+.footer-4-2 .main {
+  padding: 4rem 2rem 7rem;
+}
+
+.footer-4-2 .text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.line-close{
+  margin-bottom: 2.5rem;
+  border-color: #d8e7ff;
+}
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+  .footer-4-2 .main {
+    padding: 4rem 4rem 7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer-4-2 .main {
+    padding: 4rem 7rem 7rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer-4-2 .topnav-centered p {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

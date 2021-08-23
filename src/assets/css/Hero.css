@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.header-6-3 .navbar-light .navbar-nav .nav-link {
+  font-weight: 300;
+  font-size: 0.875rem;
+  color: #130f48;
+  transition: 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-6-3 .navbar-light .navbar-nav .nav-link.active,
+.header-6-3 .navbar-light .navbar-nav .nav-link:hover {
+  color: #4657f0;
+  transition: 0.3s;
+  
+}
+
+.header-6-3 .navbar-light .navbar-nav .nav-link.active {
+  font-weight: 600;
+}
+
+.header-6-3 .btn-fill {
+  background-color: #4657f0;
+  transition: 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-6-3 .btn-fill:hover {
+  background-color: #102051;
+  transition: 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-6-3 .btn-register {
+  font: 500 0.875rem/1.25rem "Poppins", sans-serif;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.header-6-3 .main-nav {
+  padding: 2rem;
+}
+
+.header-6-3 .main {
+  padding: 4rem 2rem 5rem;
+}
+
+.header-6-3 .left-col,
+.header-6-3 .right-col,
+.header-6-3 .card-item {
+  width: 100%;
+}
+
+.header-6-3 .left-col {
+  margin-bottom: 0.75rem;
+  opacity: 0.8;
+}
+
+.header-6-3 .text-black-1 {
+  color: #203a57;
+}
+
+.header-6-3 .text-gray-3 {
+  color: #9399d2;
+}
+
+.header-6-3 .title-font {
+  font: 700 2.25rem/1.2 "Poppins", sans-serif;
+  margin-bottom: 2rem;
+  color: #00346d;
+}
+
+.header-6-3 .caption-font {
+  line-height: 1.75rem;
+  letter-spacing: 0.025em;
+  margin-bottom: 5rem;
+  color: #070707;
+}
+
+.header-6-3 .card-block {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 20px 0px rgb(133 133 133 / 15%);
+}
+
+.header-6-3 label {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.header-6-3 input,
+.header-6-3 .input {
+  border: none;
+  font: 300 0.875rem/1.25rem "Poppins", sans-serif;
+  color: #92a3b7;
+}
+
+.header-6-3 input::placeholder,
+.header-6-3 .form-control {
+  color: #92a3b7;
+}
+
+.header-6-3 .dropdown-toggle::after {
+  display: none;
+}
+
+.header-6-3 .dropdown-menu {
+  margin-top: 18px !important;
+  border-radius: 0.75rem;
+  box-shadow: 0 0px 20px 0 rgba(167, 167, 167, 0.1),
+      0 0px 20px 0 rgba(167, 167, 167, 0.06);
+  left: 0 !important;
+  right: 0 !important;
+}
+
+.header-6-3 .btn-explore {
+  font: 600 1rem/1.5rem "Poppins", sans-serif;
+  padding: 1rem 1.75rem;
+  border-radius: 0.75rem;
+}
+
+.header-6-3 .item-title {
+  font: 600 0.875rem/1.25rem "Poppins", sans-serif;
+  margin-bottom: 0.25rem;
+}
+
+.header-6-3 .item-caption {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.header-6-3 .dropdown-header-hover:hover {
+  background-color: #edefff;
+  border-radius: 0.75rem;
+}
+
+.header-6-3 .dropdown-header-hover:hover .dropdown-header-icon-arrow {
+  display: block !important;
+}
+
+.header-6-3 {
+  background-image: url("http://bitly.ws/fVLV");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 576px) {
+  .header-6-3 .title-font {
+      font: 700 3rem/1.2 "Poppins", sans-serif;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-6-3 {
+      background-image: url("http://bitly.ws/fVLT");
+  }
+
+  .header-6-3 .main-nav {
+      padding: 2rem 5rem;
+  }
+
+  .header-6-3 .main {
+      padding: 4rem 4rem 5rem;
+  }
+
+  .header-6-3 .left-col {
+      margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-6-3 {
+      height: 900px;
+      background-image: url("http://api.elements.buildwithangga.com/storage/files/2/assets/Header/Header6/Header-6-14.png");
+  }
+
+  .header-6-3 .main-nav {
+      padding: 2rem 6rem;
+  }
+
+  .header-6-3 .main {
+      padding: 4rem 6rem 5rem;
+  }
+
+  .header-6-3 .left-col {
+      margin-bottom: 0rem;
+      width: 66.666667%;
+  }
+
+  .header-6-3 .title-font {
+      font: 700 3.75rem/1.2 "Poppins", sans-serif;
+  }
+
+  .header-6-3 .card-block {
+      padding: 0.625rem 0.625rem 0.625rem 2rem;
+  }
+
+  .header-6-3 .card-item {
+      width: auto;
+  }
+
+  .header-6-3 .dropdown-menu {
+      width: 140%;
+  }
+}
+
+@media (min-width: 1200px) {}
+
+
