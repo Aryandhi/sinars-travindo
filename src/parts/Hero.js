@@ -58,7 +58,7 @@ export default function Hero() {
                 Kami bantu siapa pun untuk membuat nyata rencana liburan impian nya.
               </p>
               <div className="d-flex">
-                <Link to="/formOrder" className="btn btn-register btn-fill text-white">Daftar</Link>
+                <Link to="/formOrder" className="btn btn-register btn-fill text-white">Buat Pesanan</Link>
               </div>
             </div>
           </div>

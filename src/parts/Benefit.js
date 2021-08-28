@@ -1,5 +1,6 @@
 import React from 'react';
 import 'assets/css/Benefit.css';
+
 export default function Benefit() {
   return (
     <section className="h-100 w-100 bg-white">

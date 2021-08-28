@@ -5,9 +5,9 @@ import ContactDataService from 'services/contactService';
 export default function Contact() {
   
   const initialContactState = {
-    to: "aryandh.a.w@gmail.com",
-    subject: "",
-    text: ""
+    email: "",
+    phone: "",
+    message: ""
   };
   const [contact, setContact] = useState(initialContactState);
   const [submitted, setSubmitted] = useState(false);
@@ -18,16 +18,16 @@ export default function Contact() {
   };
   const saveContact= () => {
     var data = {
-      to: contact.to,
-      subject: contact.subject,
-      text: contact.text,
+      email: contact.email,
+      phone: contact.phone,
+      message: contact.message,
     };
     ContactDataService.create(data)
       .then(response => {
         setContact({
-          to: response.data.to,
-          subject: response.data.subject,
-          text: response.data.text
+          email: response.data.email,
+          phone: response.data.phone,
+          message: response.data.message
         });
         setSubmitted(true);
         console.log(response.data);
@@ -74,49 +74,48 @@ export default function Contact() {
               </div>
               ) : (
               <div>
-                {/* Input to */}
+                {/* Input email */}
                 <div className="form-group">
-                <label htmlFor="to"></label>
+                <label htmlFor="email">Email</label>
                 <input
-                  type="hidden"
+                  type="email"
                   className="form-control "
-                  id="to"
+                  id="email"
                   required
-                  value={contact.to}
+                  value={contact.email}
                   onChange={handleInputChange}
-                  name="to"
+                  name="email"
                 />
                 </div>
-                {/* End of Input to */}
+                {/* End of Input email */}
 
-                {/* Input subject */}
+                {/* Input phone */}
                 <div className="form-group">
-                <label htmlFor="subject">Subjek</label>
+                <label htmlFor="phone">Phone</label>
                 <input
-                  placeholder="Subjek Email"
                   type="text"
                   className="form-control "
-                  id="subject"
+                  id="phone"
                   required
-                  value={contact.subject}
+                  value={contact.phone}
                   onChange={handleInputChange}
-                  name="subject"
+                  name="phone"
                 />
                 </div>
-                {/* End of Input subject */}
+                {/* End of Input Phone */}
 
-                {/* Input subject */}
+                {/* Input message */}
                 <div className="form-group">
-                <label htmlFor="text">Pesan</label>
+                <label htmlFor="message">Message</label>
                 <textarea
                   placeholder="Pesanmu sangat berguna bagi kami"
                   type="text"
                   className="form-control "
-                  id="text"
+                  id="message"
                   required
-                  value={contact.text}
+                  value={contact.message}
                   onChange={handleInputChange}
-                  name="text"
+                  name="message"
                 />
                 </div>
                 {/* End of Input subject */}
